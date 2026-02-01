@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sensor Data Reader</string>
+    <string name="app_title">Android Sensor Data Reader</string>
+    <string name="start_monitoring">Start Monitoring</string>
+    <string name="stop_monitoring">Stop Monitoring</string>
+    <string name="view_all_sensors">View All Sensors</string>
+    <string name="available_sensors">Available Sensors</string>
+    <string name="real_time_data">Real-time Sensor Data</string>
+    <string name="sensor_info_empty">No sensors found on this device</string>
+    <string name="monitoring_started">Sensor monitoring started</string>
+    <string name="monitoring_stopped">Sensor monitoring stopped</string>
+    <string name="permission_required">Sensor permissions are required to use this app</string>
+    <string name="error_sensor_not_available">Sensor not available on this device</string>
+</resources>

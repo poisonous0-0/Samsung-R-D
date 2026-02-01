@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+tools:context=".MainActivity">
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="📱 Sensor Data Reader"
+android:textSize="24sp"
+android:textStyle="bold"
+android:gravity="center"
+android:layout_marginBottom="12dp"
+android:textColor="#1976D2" />
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="#F5F5F5"
+android:padding="12dp"
+android:layout_marginBottom="16dp">
+<TextView
+android:id="@+id/status_text_view"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="○ Monitoring Inactive"
+android:textSize="16sp"
+android:textStyle="bold"
+android:textColor="@color/text_inactive"
+android:layout_marginBottom="4dp" />
+<TextView
+android:id="@+id/sensor_count_text_view"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Available Sensors: 0"
+android:textSize="14sp"
+android:textColor="@color/text_secondary" />
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginBottom="16dp">
+<Button
+android:id="@+id/toggle_monitoring_button"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="▶ Start Monitoring"
+android:layout_marginEnd="8dp"
+android:textStyle="bold" />
+<Button
+android:id="@+id/view_all_sensors_button"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="🔍 Refresh Sensors"
+android:textStyle="bold" />
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_marginBottom="12dp">
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="📊 Available Sensors"
+android:textSize="16sp"
+android:textStyle="bold"
+android:textColor="#1976D2"
+android:layout_marginBottom="8dp" />
+<ListView
+android:id="@+id/sensor_list_view"
+android:layout_width="match_parent"
+android:layout_height="150dp" />
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="vertical">
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="⚡ Real-time Sensor Data"
+android:textSize="16sp"
+android:textStyle="bold"
+android:textColor="#1976D2"
+android:layout_marginBottom="8dp" />
+<ListView
+android:id="@+id/sensor_data_list_view"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1" />
+</LinearLayout>
+</LinearLayout>

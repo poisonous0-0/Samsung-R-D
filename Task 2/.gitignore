@@ -1,0 +1,78 @@
+# Android Gradle files
+.gradle/
+build/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Local configuration file
+local.properties
+
+# Log files
+*.log
+
+# Android Studio specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Gradle wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ specific files/folders
+out/
+*.iml
+.idea/
+
+# Test files
+.junit/
+
+# Firebase
+google-services.json
+
+# Sensitive files
+secrets.properties
+keystore.jks
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Compiled class files
+*.class
+
+# Generated files
+.gradle
+.idea
+build/
+
+# Environment files
+.env
+.env.local
+
+# Node modules (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Distribution files
+dist/
+release/
