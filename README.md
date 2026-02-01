@@ -422,4 +422,4 @@ With these principles in mind, you're ready to build powerful sensor-driven appl
 
 ---
 
-**Author's Note**: This implementation is production-ready and follows Android best practices. The complete source code is available in the accompanying GitHub repository. Happy coding!
+**Author's Note**: This implementation is production-ready and follows Android best practices. The complete source code is available in the accompanying GitHub repository
